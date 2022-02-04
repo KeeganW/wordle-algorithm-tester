@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #000;
+    --background-color: #FFF;
+}
+
+/* Set height for mobile address bar issues*/
+html, body {margin: 0; height: 100%;}
+
+/* Set base background, colors, and fonts*/
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--background-color);
+    color: black;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Display certain maps based on browser size, so it fits on the page. */
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 700px) {
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 1000px), (max-height: 900px) {
+}
+@media screen and (max-width: 700px), (max-height: 720px) {
+}
+@media screen and (max-width: 500px), (max-height: 540px) {
+}
